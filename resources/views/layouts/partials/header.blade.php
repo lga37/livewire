@@ -13,6 +13,10 @@
                     Blog
                 </x-nav-link>
 
+                <x-nav-link href="{{ route('tasks')}}" :active="request()->routeIs('tasks')">
+                    Tasks
+                </x-nav-link>
+
                 <x-nav-link href="{{ route('chat')}}" :active="request()->routeIs('chat')">
                     ChatGPT
                 </x-nav-link>

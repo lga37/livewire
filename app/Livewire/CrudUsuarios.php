@@ -110,6 +110,8 @@ class CrudUsuarios extends Component
             selected :
                 {{ $this->selected->id??'' }}
                 {{ $this->selected->name??'' }}
+
+            
             <hr>
 
             <a wire:click="alert" href="#"> alert </a> -
